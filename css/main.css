@@ -438,3 +438,29 @@ a.index:after,
   color:#2c3e50;
   border: 2px solid #2c3e50;
 }
+/*---------------------------------------------------
+  RESPONSIVE - header photo only
+---------------------------------------------------*/
+
+@media (max-width: 900px) {
+  .header {
+    height: 550px;
+    background-position: 60% 0%;
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 420px;
+    padding-top: 200px;
+    background-position: 55% 0%;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    height: 350px;
+    padding-top: 160px;
+    background-position: 50% 0%;
+  }
+}
